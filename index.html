@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.98.0">
+   
+    <meta name="theme-color" content="#712cf9">
+<link rel="stylesheet" href="./styles/style.css">
+<link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/modals/">
+
+
+
+    <title>cookie-clicker</title>
+</head>
+<body>
+    <div class="modal modal-tour position-static d-block bg-secondary py-5" tabindex="-1" role="dialog" id="modalTour">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content rounded-4 shadow" >
+                <div class="modal-body p-5">
+                    <h2 class="fw-bold mb-0" >Cooke Clicker</h2>
+                  
+                    <ul class="d-grid gap-4 my-5 list-unstyled"> 
+                        <div id = "space"></div>
+                        <li class="d-flex gap-4" >
+                            <div id = "cookie" onclick="cookieClick()">
+                                <img src="./photo's/cookies.jpg" />
+                            </div>
+                            <div>
+                                <h5 class="mb-0">Your cookie</h5>
+                                " 
+                                Click on the image to get more cookies.
+                              "
+                            </div>
+                        </li>
+                        <li class="d-flex gap-4">
+                            <div id = "numbers"></div>
+                            <div>
+                                <h5 class="mb-0">numbers of cookies</h5>
+                                "As much you click on the image cookie as more you get cookies"
+                            </div>
+                        </li>
+                        <li class="d-flex gap-4">
+                            <div id= "upgradeLevel"></div>
+                            <div>
+                                <h5 class="mb-0">Upgrade level</h5>
+                                "You will AUTOMATICALLY upgrade according the following table of upgrade costs!:"
+                            </div>
+                        </li>
+                        <li class="d-flex gab-4">
+                            
+        <table class="table-cookie">
+            <tr>
+                <td>Levels</td>
+                <td>How many cookies can it make?</td>
+                <td>cost</td>
+            </tr>
+            
+            <tr>
+                <td class="red-co">First level</td>
+                <td class="red-co">First level make 2x's as much!</td>
+                <td class=" red-co">100 cookies!</td>
+            </tr>
+            
+            <tr>
+                <td class="red-ca">second level</td>
+                <td class="red-ca"> Factory makes 10x's as much!</td>
+                <td class="red-ca">100 cookies!</td>
+            </tr>
+            
+            <tr>
+                <td class="green-co">third level</td>
+                <td class="green-co"> third level 30x's as much!</td>
+                <td class="green-co">1,000 cookies!</td>
+            </tr>
+            
+             <tr>
+                <td class="green-ca">Super level</td>
+                <td  class="green-ca"> Super level makes 100x's as much!</td>
+                <td  class="green-ca">10,000 cookies!</td>
+            </tr>
+
+        </table>
+
+                        </li>
+                    </ul>
+                    <button type="button" class="btn btn-lg btn-primary mt-5 w-100" data-bs-dismiss="modal">Great, thanks!</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+
+
+   
+<script src="./scripts/main.js"></script>
+</body>
+</html>
