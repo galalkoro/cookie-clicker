@@ -12584,7 +12584,7 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-#space {
+#space-cookie {
   margin: auto;
   text-align: center;
   padding-top: 20px;
@@ -12595,7 +12595,7 @@ textarea.form-control-lg {
   background-color: #979293;
   color: white;
   width: 389px;
-  height: 60px;
+  height: 70px;
 }
 
 #cookie img {
