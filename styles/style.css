@@ -65,4 +65,12 @@ td {
 .green-ca {
   background-color: green;
 }
+
+#modalTour {
+  background-image: url("../photo/bground.jpeg");
+}
+
+.modal-body {
+  background-image: url("../photo/bg55.jpg");
+}
 /*# sourceMappingURL=style.css.map */
