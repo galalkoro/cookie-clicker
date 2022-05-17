@@ -2,12 +2,12 @@
 // this function for promt player
 
 var numberOfClick = 0;
-window.onload = function () {
+/*window.onload = function () {
     var entreName = prompt("Entre a name"); // this will load the page automaticly to submit your name in orde to start play 
     var spaceCookie = document.getElementById("space");
     spaceCookie.innerHTML = entreName + "bakery";
     
-}
+}*/
 
 var myCookie = document.getElementById("cookie");
 
